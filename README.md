@@ -1,0 +1,1 @@
+This is my take on the google homepage. My first project during this home study period.
