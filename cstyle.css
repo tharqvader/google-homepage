@@ -1,3 +1,7 @@
+.container{
+    position: relative;
+}
+
 ul{
     list-style-type: none;
     margin: 0;
@@ -18,8 +22,8 @@ li a {
 
 .content{
     text-align: center;
-    margin: 60px 40px 60px 40px;
-    padding: 60px 40px 60px 40px;
+    margin: 60px 40px 2.5rem 40px;
+    padding-bottom: 2.5rem;
 }
 
 .search{
@@ -67,7 +71,39 @@ p a:hover{
     margin-top: 2em;
 }
 
+#footer{
+    position: absolute;
+    bottom: 0;
+    width: 99.4%;
+    height: 2.5rem;
+}
+
 .foot-nav{
-    margin-top: 2em;
     background-color: lightgray;
+}
+
+.foot-nav ul li:first-child{
+    float: left;
+}
+
+.foot-nav ul li:nth-child(2){
+    float: left;
+}
+
+.foot-nav ul li:nth-child(3){
+    float: left;
+}
+
+.foot-nav ul li:nth-child(4){
+    float: left;
+}
+
+.foot-nav ul li{
+    list-style: none;
+    margin: 4px;
+    float: right;
+}
+
+.foot-nav a:hover{
+    text-decoration: underline;
 }
