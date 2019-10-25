@@ -1,5 +1,6 @@
 .container{
     position: relative;
+    height: 500px;
 }
 
 ul{
@@ -22,18 +23,18 @@ li a {
 
 .content{
     text-align: center;
-    margin: 60px 40px 2.5rem 40px;
-    padding-bottom: 2.5rem;
+    margin: 170px;
+    padding-bottom: 40px;
 }
 
 .search{
-    margin-top: 1em;
+    margin-top: 10px;
     width: 40%;
     display: inline-block;
 }
 
 .bt{
-    margin-top: 2.5em;
+    margin-top: 20px;
 }
 
 .bt a{
@@ -53,10 +54,11 @@ li a {
 p{
     font-size: 12px;
     color: gray;
-    margin-top: 2em;
+    margin-top: 20px;
 }
 
 p a{
+    color: blue;
     text-decoration: none;
 }
 
@@ -64,18 +66,15 @@ p a:hover{
     text-decoration: underline;
 }
 
-.location p{
-    font-size: 14px;
-    background-color: lightgray;
-    height: ;
-    margin-top: 2em;
+.bt a:hover{
+    border: 1px solid gray;
 }
 
 #footer{
     position: absolute;
     bottom: 0;
     width: 99.4%;
-    height: 2.5rem;
+    height: 44px;
 }
 
 .foot-nav{
@@ -100,7 +99,7 @@ p a:hover{
 
 .foot-nav ul li{
     list-style: none;
-    margin: 4px;
+    /*margin: 4px;*/
     float: right;
 }
 
